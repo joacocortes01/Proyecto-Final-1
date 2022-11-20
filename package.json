@@ -1,7 +1,6 @@
 {
   "name": "proyecto-final-1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss:css"
@@ -11,5 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joacocortes01/Proyecto-Final-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joacocortes01/Proyecto-Final-1/issues"
+  },
+  "homepage": "https://github.com/joacocortes01/Proyecto-Final-1#readme",
+  "description": ""
 }

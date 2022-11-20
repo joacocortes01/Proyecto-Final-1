@@ -1,1 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+$font-family-base: "Poppins", sans-serif;
+
+$primary: rgb(248, 229, 229);
+
+$secondary: rgb(254, 255, 204);
+
+$terciary: rgb(253, 212, 100);
+
+$navbar1: rgb(230, 170, 245);
+
+$navbar2: rgb(149, 22, 180);
+
+$gradient-navbar: $navbar1, $navbar2;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "body";
+@import "navbar";
