@@ -1,5 +1,30 @@
 body {
-  background-image: linear-gradient(90deg, $primary, $secondary);
-  background-size: cover;
+  background-image: linear-gradient(
+      rgba(200, 200, 201, 0.25),
+      rgba(5, 7, 12, 0.75)
+    ),
+    url(../img/nosotros.jpeg);
+
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.form-floating {
+  color: black;
+}
+
+.card {
+  color: black;
+}
+
+#section2 {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  color: black;
+  text-align: center;
 }

@@ -2,9 +2,9 @@
 
 $font-family-base: "Poppins", sans-serif;
 
-$primary: rgb(248, 229, 229);
+$primary: rgb(252, 252, 252);
 
-$secondary: rgb(255, 188, 185);
+$secondary: rgb(180, 17, 17);
 
 $terciary: rgb(253, 212, 100);
 
@@ -17,3 +17,4 @@ $navbar2: rgb(149, 22, 180);
 @import "body";
 @import "navbar";
 @import "header";
+@import "footer";
