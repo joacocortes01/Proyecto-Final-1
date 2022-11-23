@@ -10773,7 +10773,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(200, 200, 201, 0.25), rgba(5, 7, 12, 0.75)), url(../img/nosotros.jpeg);
+  background-image: linear-gradient(rgba(200, 200, 201, 0.75), rgba(5, 7, 12, 0.75)), url(../img/nosotros.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10781,12 +10781,22 @@ body {
   color: white;
 }
 
-.form-floating {
-  color: black;
+#section1 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .card {
   color: black;
+  height: 30rem;
+}
+
+.card-parrafo {
+  margin-top: 2.5rem;
+}
+
+.card-parrafo2 {
+  margin-top: 8rem;
 }
 
 #section2 {
@@ -10794,8 +10804,27 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-image: linear-gradient(90deg, rgb(255, 255, 255), rgb(248, 230, 230));
-  color: black;
+  color: white;
   text-align: center;
+}
+
+#carouselExampleControls {
+  width: 100%;
+}
+
+.btn-title {
+  background-image: linear-gradient(90deg, rgb(255, 255, 255), rgb(248, 230, 230));
+  border: none;
+}
+
+.btn {
+  background-color: rgb(236, 126, 177);
+  margin-top: 2rem;
+}
+
+#section3 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .gradient-navbar {
@@ -10810,16 +10839,19 @@ header {
 }
 
 footer {
-  background-image: linear-gradient(90deg, rgb(3, 3, 3), rgb(255, 255, 255));
+  background-color: rgb(255, 255, 255);
   padding-top: 5rem;
+  opacity: 0.75;
 }
 
 .subtitulos {
   font-size: 25px;
+  color: black;
 }
 
 .subtitulos-footer {
   font-size: 15px;
+  color: black;
 }
 
 .subtitulos-redes {
