@@ -20,6 +20,8 @@ body {
 .card {
   color: black;
   height: 30rem;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .card-parrafo {
@@ -41,6 +43,7 @@ body {
   );
   color: white;
   text-align: center;
+  align-items: center;
 }
 
 #carouselExampleControls {
