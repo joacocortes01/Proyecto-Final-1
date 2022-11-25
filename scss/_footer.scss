@@ -2,24 +2,24 @@ footer {
   background-color: rgb(255, 255, 255);
   padding-top: 5rem;
   opacity: 0.75;
-}
-
-.subtitulos {
-  font-size: 25px;
-  color: black;
-}
-
-.subtitulos-footer {
-  font-size: 15px;
-  color: black;
-}
-
-.subtitulos-redes {
-  font-size: 25px;
-  color: black;
-}
-
-.logo {
-  width: 20px;
-  height: 20px;
+  div {
+    div {
+      div {
+        .subtitulos {
+          font-size: 25px;
+          color: black;
+        }
+        .subtitulos-footer {
+          font-size: 15px;
+          color: black;
+        }
+      }
+      div {
+        .logo {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
 }

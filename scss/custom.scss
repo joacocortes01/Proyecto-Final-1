@@ -3,14 +3,7 @@
 $font-family-base: "Poppins", sans-serif;
 
 $primary: rgb(252, 252, 252);
-
-$secondary: rgb(180, 17, 17);
-
-$terciary: rgb(253, 212, 100);
-
-$navbar1: rgb(230, 170, 245);
-
-$navbar2: rgb(149, 22, 180);
+$warning: rgb(236, 126, 177);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "variables";
@@ -18,3 +11,6 @@ $navbar2: rgb(149, 22, 180);
 @import "navbar";
 @import "header";
 @import "footer";
+@import "index";
+@import "card";
+@import "form";
