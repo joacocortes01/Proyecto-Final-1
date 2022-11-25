@@ -10780,8 +10780,7 @@ body {
   background-attachment: fixed;
   color: white;
 }
-
-a {
+body a {
   text-decoration: none;
 }
 
@@ -10888,6 +10887,14 @@ div form div .btn {
 }
 #section5 h2, #section5 .h2 {
   padding-top: 2rem;
+}
+
+#section2 div div div .parrafo {
+  color: black;
+  font-size: 2rem;
+}
+#section2 div div div .img-fluid {
+  height: 600px;
 }
 
 /*# sourceMappingURL=custom.css.map */
