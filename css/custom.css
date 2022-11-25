@@ -10864,4 +10864,17 @@ div form div .btn {
   background-color: rgb(236, 126, 177);
 }
 
+.accordion {
+  margin-bottom: 1rem;
+}
+.accordion .accordion-item {
+  background-image: linear-gradient(90deg, rgb(250, 239, 239), rgb(248, 227, 227));
+}
+.accordion .accordion-item .accordion-button {
+  background-image: linear-gradient(90deg, rgb(247, 208, 208), rgb(255, 255, 255));
+}
+.accordion .accordion-item div .accordion-body a {
+  color: red;
+}
+
 /*# sourceMappingURL=custom.css.map */
